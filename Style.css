@@ -1,0 +1,267 @@
+/***********Univirsal Sets*********************/
+@font-face {
+  font-family: AdobeArabic;
+  src: url(./Fonts/AdobeArabic-Regular.otf);
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eceeef;
+
+}
+
+.Display {
+  background-color: #fff;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+  border: 1px solid rgba(0, 0, 0, 18%);
+}
+
+label,
+.ReceiptNumber {
+  font-family: AdobeArabic;
+  font-size: 29px;
+  color: #919da3;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/***************Nav bar*********************/
+nav {
+  display: flex;
+  background-color: #384048;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: center;
+}
+
+nav a {
+  font-family: AdobeArabic;
+  text-decoration: none;
+  color: #fff;
+  padding: 7px;
+  font-size: 42px;
+}
+
+nav ul li a {
+  padding: 7px 15px;
+}
+
+nav ul li a:hover {
+  background-color: #eceeef;
+  color: #384048;
+}
+
+/***********************clothes list**********************/
+.main {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.Container1 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 60%;
+}
+
+.Costumer-Clothes {
+  height: 50%;
+  width: 90%;
+  background-color: #fff;
+  margin: 17px 17px 15px 17px;
+  border: 1px solid rgba(112, 112, 112, 100%);
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.16);
+}
+
+.btns-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 20px 0px 20px;
+}
+
+.btn {
+  background-color: #fff;
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 63%);
+  border-radius: 23px;
+}
+.btn:hover {
+  opacity: 1;
+}
+
+.btn img {
+  height: 40px;
+  width: 40px;
+}
+
+.lables {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0 2%;
+}
+
+.Money label {
+  margin: 8px;
+}
+
+.Money {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 15px 0px 0px 40px;
+}
+.Total,
+.Pay,
+.TotalAfterPay {
+  height: 33.44px;
+  width: 253.98px;
+  margin: 8px;
+  padding: 0px 20px;
+  text-align: right;
+}
+
+.TotalContainer,
+.PayContainer,
+.TotalAfterPayContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+/*****************************Inputs Fields*********************/
+.InputsForm {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex-basis: 10%;
+}
+
+.CustomerInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.label1 {
+  margin: 15px 0px;
+}
+
+.CostumerName {
+  height: 32px;
+  width: 240px;
+  text-align: right;
+  padding: 0px 10px;
+}
+
+.PhoneNumber {
+  height: 32px;
+  width: 200px;
+  text-align: right;
+  padding: 0px 10px;
+}
+
+.label2 {
+  margin: 25px 98px 5px 0px;
+  font-size: 32px;
+}
+
+.ReceiptNumber {
+  margin-right: 60px;
+  height: 41px;
+  width: 169px;
+  border-radius: 36px;
+  padding: 10px;
+  text-align: center;
+}
+
+hr {
+  margin: 25px 0px 0px 0px;
+  width: 370px;
+  border-top: 1px solid rgba(112, 112, 112, 100%);
+}
+.ManualEntering {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.KeyboardLabel {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-top: 8px;
+}
+
+.KeyboardLabel label {
+  margin-left: 5px;
+}
+.ManualEntering img {
+  height: 20px;
+  width: 28px;
+}
+
+.group1 input {
+  margin: 10px 0px 2px 5px;
+  height: 33px;
+  width: 104px;
+  padding: 10px;
+  text-align: center;
+}
+
+.group2 label {
+  margin: 0px 9px 0px 50px;
+}
+
+/******************************* Clothes List *********************/
+
+.clothesListContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex-basis: 30%;
+}
+.mouseLabel {
+  display: flex;
+  align-items: center;
+  margin: 7px;
+}
+.mouseLabel img {
+  height: 24px;
+  width: 18px;
+  margin-right: 5px;
+}
+
+.ClothesMenu {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 75px;
+  border-bottom-left-radius: 75px;
+  border: 2px solid rgba(0, 0, 0, 18%);
+}
